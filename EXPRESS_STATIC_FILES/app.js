@@ -8,12 +8,16 @@ function getcallback(req,res) {
   res.sendFile(path.join(__dirname, 'index.html'));
 }
 
-app.get('/about',function(req,res){
- res.sendFile(path.join(__dirname, 'about.html')); 
+app.get('/home',function(req,res){
+ res.sendFile(path.join(__dirname, 'home.html')); 
 });
 
-app.get('/sitemap',function(req,res){
- res.sendFile(path.join(__dirname, 'sitemap.html')); 
+app.get('/warning',function(req,res){
+ res.sendFile(path.join(__dirname, 'warning.html')); 
+});
+
+app.get('/manutenzione',function(req,res){
+ res.sendFile(path.join(__dirname, 'manutenzione.html')); 
 });
 
 app.listen(3000, funzione);
