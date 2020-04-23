@@ -1,0 +1,22 @@
+{
+  "name": "esempio_express",
+  "version": "1.0.0",
+  "description": "esempio",
+  "main": "app.js",
+  "scripts": {
+    "test": "start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RodriguezRicardo/serverNodeJs.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RodriguezRicardo/serverNodeJs/issues"
+  },
+  "homepage": "https://github.com/RodriguezRicardo/serverNodeJs#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
